@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h1>Todo List</h1>
+    <h1>List Capaian</h1>
     <div class="input-group">
-      <input v-model="newTodoText" placeholder="Add new todo" />
+      <input v-model="newTodoText" placeholder="Buat capaian" />
       <button @click="addNewTodo">Add</button>
     </div>
     <ul>
